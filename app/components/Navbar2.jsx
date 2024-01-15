@@ -158,7 +158,7 @@ export default function Navbar2() {
               isActive("/packages") ? "underline underline-offset-4" : ""
             }
           >
-            <Link href="/about">Paketler</Link>
+            <Link href="/packages">Paketler</Link>
           </li>
           <li
             className={
