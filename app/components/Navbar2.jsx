@@ -6,12 +6,11 @@ import { usePathname } from "next/navigation";
 export default function Navbar2() {
   const pathname = usePathname();
   const isActive = (path) => path === pathname;
-  const [isdark, setIsdark] = useState(
-    JSON.parse(localStorage.getItem("isdark"))
-  );
+  const [isdark, setIsdark] = useState(false);
   useEffect(() => {
+    setIsdark(JSON.parse(localStorage.getItem("isdark")));
     localStorage.setItem("isdark", JSON.stringify(isdark));
-  }, [isdark]);
+  }, []);
   return (
     <div className="drawer sticky top-0 z-10">
       <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
@@ -40,22 +39,30 @@ export default function Navbar2() {
                 <Link href="/">Anasayfa</Link>
               </li>
               <li
-                className={isActive("/packages") ? "underline underline-offset-4" : ""}
+                className={
+                  isActive("/packages") ? "underline underline-offset-4" : ""
+                }
               >
                 <Link href="/packages">Paketler</Link>
               </li>
               <li
-                className={isActive("/contact") ? "underline underline-offset-4" : ""}
+                className={
+                  isActive("/contact") ? "underline underline-offset-4" : ""
+                }
               >
                 <Link href="/contact">İletişim</Link>
               </li>
               <li
-                className={isActive("/whatsCrm") ? "underline underline-offset-4" : ""}
+                className={
+                  isActive("/whatsCrm") ? "underline underline-offset-4" : ""
+                }
               >
                 <Link href="/whatsCrm">CRM Nedir?</Link>
               </li>
               <li
-                className={isActive("/sss") ? "underline underline-offset-4" : ""}
+                className={
+                  isActive("/sss") ? "underline underline-offset-4" : ""
+                }
               >
                 <Link href="/sss">SSS</Link>
               </li>
@@ -146,16 +153,30 @@ export default function Navbar2() {
           <li className={isActive("/") ? "underline underline-offset-4" : ""}>
             <Link href="/">Anasayfa</Link>
           </li>
-          <li className={isActive("/packages") ? "underline underline-offset-4" : ""}>
+          <li
+            className={
+              isActive("/packages") ? "underline underline-offset-4" : ""
+            }
+          >
             <Link href="/about">Paketler</Link>
           </li>
-          <li className={isActive("/contact") ? "underline underline-offset-4" : ""}>
+          <li
+            className={
+              isActive("/contact") ? "underline underline-offset-4" : ""
+            }
+          >
             <Link href="/contact">İletişim</Link>
           </li>
-          <li className={isActive("/whatsCrm") ? "underline underline-offset-4" : ""}>
+          <li
+            className={
+              isActive("/whatsCrm") ? "underline underline-offset-4" : ""
+            }
+          >
             <Link href="/whatsCrm">CRM Nedir?</Link>
           </li>
-          <li className={isActive("/sss") ? "underline underline-offset-4" : ""}>
+          <li
+            className={isActive("/sss") ? "underline underline-offset-4" : ""}
+          >
             <Link href="/sss">SSS</Link>
           </li>
           <li>
