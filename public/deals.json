@@ -1,0 +1,242 @@
+[
+  {
+    "Title": "Temel Paket",
+    "Price": 15,
+    "LimitPerUser": {
+      "ActiveLeads": 2500,
+      "Contacts": 12500,
+      "Storage": "100MB"
+    },
+    "PotentialCustomer": {
+      "MultiChannelCapture": true,
+      "FormBuilder": true,
+      "CRMPlugin": true,
+      "GoogleSheetsSynchronization": true,
+      "LeadScraper": true,
+      "EmailParsing": true,
+      "BusinessCardScanner": true
+    },
+    "SingleApplication": {
+      "MessengerAppIntegrations": true,
+      "TeamChatAndMentions": true,
+      "Publishing": false,
+      "ChatAndEmailTemplates": true,
+      "EmailTwoWaySync": true,
+      "SMSAndVoIPIntegrations": true,
+      "CallForwardingIntegrations": true,
+      "CallRecordingAndLogging": true
+    },
+    "CustomerManagement": {
+      "CustomFields": 100,
+      "CustomizableLeadProfiles": true,
+      "RequiredFields": false,
+      "LinkClickTracking": true,
+      "MergeDuplicateLeads": true,
+      "MessagesEmailStatuses": true
+    },
+    "OrganizeYourWorkflow": {
+      "UpTo50Pipelines": true,
+      "CustomPipelineStages": true,
+      "TaskManagement": true,
+      "CalendarAndReminders": true,
+      "DocumentCreator": true,
+      "MobileApp": true
+    },
+    "BotsAndAutomation": {
+      "CodelessBotBuilder": false,
+      "UnlimitedSalesBot": false,
+      "BotAIEnhancement": false,
+      "TriggeredSMSAndEmails": false,
+      "WorkflowAutomation": false
+    },
+    "Analytics": {
+      "Dashboard": true,
+      "WidgetCreationFromFilters": true,
+      "ChatPerformanceTracking": true,
+      "SalesSnapshot": true,
+      "WinLossAnalysis": true,
+      "CallReport": false,
+      "GoalReport": false,
+      "SalesForecasting": false,
+      "LeadScoring": false
+    },
+    "SecurityAndAccess": {
+      "SSLCertificate": true,
+      "DataBackup": true,
+      "CustomizableUserPermissions": true,
+      "CreateUserTeams": false,
+      "EnableBlockIPAddresses": false,
+      "UserActivityLog": false,
+      "PeriodicDataBackup": false
+    },
+    "SupportAndCustomization": {
+      "PhoneEmailChatSupport": true,
+      "5000PlusExpertPartners": true,
+      "100PlusIntegrationMarket": true,
+      "RESTfulAPI": true,
+      "CreateIntegrations": true,
+      "CustomWidgetsCreation": false,
+      "Webhooks": false
+    }
+  },
+  {
+    "Title": "Avantaj Paket",
+    "Price": 25,
+    "LimitPerUser": {
+      "ActiveLeads": 5000,
+      "Contacts": 25000,
+      "Storage": "200MB"
+    },
+    "PotentialCustomer": {
+      "MultiChannelCapture": true,
+      "FormBuilder": true,
+      "CRMPlugin": true,
+      "GoogleSheetsSynchronization": true,
+      "LeadScraper": true,
+      "EmailParsing": true,
+      "BusinessCardScanner": true
+    },
+    "SingleApplication": {
+      "MessengerAppIntegrations": true,
+      "TeamChatAndMentions": true,
+      "Publishing": true,
+      "ChatAndEmailTemplates": true,
+      "EmailTwoWaySync": true,
+      "SMSAndVoIPIntegrations": true,
+      "CallForwardingIntegrations": true,
+      "CallRecordingAndLogging": true
+    },
+    "CustomerManagement": {
+      "CustomFields": 200,
+      "CustomizableLeadProfiles": true,
+      "RequiredFields": true,
+      "LinkClickTracking": true,
+      "MergeDuplicateLeads": true,
+      "MessagesEmailStatuses": true
+    },
+    "OrganizeYourWorkflow": {
+      "UpTo50Pipelines": true,
+      "CustomPipelineStages": true,
+      "TaskManagement": true,
+      "CalendarAndReminders": true,
+      "DocumentCreator": true,
+      "MobileApp": true
+    },
+    "BotsAndAutomation": {
+      "CodelessBotBuilder": true,
+      "UnlimitedSalesBot": true,
+      "BotAIEnhancement": false,
+      "TriggeredSMSAndEmails": true,
+      "WorkflowAutomation": true
+    },
+    "Analytics": {
+      "Dashboard": true,
+      "WidgetCreationFromFilters": true,
+      "ChatPerformanceTracking": true,
+      "SalesSnapshot": true,
+      "WinLossAnalysis": true,
+      "CallReport": true,
+      "GoalReport": true,
+      "SalesForecasting": true,
+      "LeadScoring": false
+    },
+    "SecurityAndAccess": {
+      "SSLCertificate": true,
+      "DataBackup": true,
+      "CustomizableUserPermissions": true,
+      "CreateUserTeams": true,
+      "EnableBlockIPAddresses": true,
+      "UserActivityLog": false,
+      "PeriodicDataBackup": false
+    },
+    "SupportAndCustomization": {
+      "PhoneEmailChatSupport": true,
+      "5000PlusExpertPartners": true,
+      "100PlusIntegrationMarket": true,
+      "RESTfulAPI": true,
+      "CreateIntegrations": true,
+      "CustomWidgetsCreation": true,
+      "Webhooks": true
+    }
+  },
+  {
+    "Title": "Mega Paket",
+    "Price": 45,
+    "LimitPerUser": {
+      "ActiveLeads": 10000,
+      "Contacts": 50000,
+      "Storage": "400MB"
+    },
+    "PotentialCustomer": {
+      "MultiChannelCapture": true,
+      "FormBuilder": true,
+      "CRMPlugin": true,
+      "GoogleSheetsSynchronization": true,
+      "LeadScraper": true,
+      "EmailParsing": true,
+      "BusinessCardScanner": true
+    },
+    "SingleApplication": {
+      "MessengerAppIntegrations": true,
+      "TeamChatAndMentions": true,
+      "Publishing": true,
+      "ChatAndEmailTemplates": true,
+      "EmailTwoWaySync": true,
+      "SMSAndVoIPIntegrations": true,
+      "CallForwardingIntegrations": true,
+      "CallRecordingAndLogging": true
+    },
+    "CustomerManagement": {
+      "CustomFields": 400,
+      "CustomizableLeadProfiles": true,
+      "RequiredFields": true,
+      "LinkClickTracking": true,
+      "MergeDuplicateLeads": true,
+      "MessagesEmailStatuses": true
+    },
+    "OrganizeYourWorkflow": {
+      "UpTo50Pipelines": true,
+      "CustomPipelineStages": true,
+      "TaskManagement": true,
+      "CalendarAndReminders": true,
+      "DocumentCreator": true,
+      "MobileApp": true
+    },
+    "BotsAndAutomation": {
+      "CodelessBotBuilder": true,
+      "UnlimitedSalesBot": true,
+      "BotAIEnhancement": true,
+      "TriggeredSMSAndEmails": true,
+      "WorkflowAutomation": true
+    },
+    "Analytics": {
+      "Dashboard": true,
+      "WidgetCreationFromFilters": true,
+      "ChatPerformanceTracking": true,
+      "SalesSnapshot": true,
+      "WinLossAnalysis": true,
+      "CallReport": true,
+      "GoalReport": true,
+      "SalesForecasting": true,
+      "LeadScoring": true
+    },
+    "SecurityAndAccess": {
+      "SSLCertificate": true,
+      "DataBackup": true,
+      "CustomizableUserPermissions": true,
+      "CreateUserTeams": true,
+      "EnableBlockIPAddresses": true,
+      "UserActivityLog": true,
+      "PeriodicDataBackup": true
+    },
+    "SupportAndCustomization": {
+      "PhoneEmailChatSupport": true,
+      "5000PlusExpertPartners": true,
+      "100PlusIntegrationMarket": true,
+      "RESTfulAPI": true,
+      "CreateIntegrations": true,
+      "CustomWidgetsCreation": true,
+      "Webhooks": true
+    }
+  }
+]
