@@ -1,7 +1,8 @@
 "use client";
 import React from "react";
 import { Formik, useFormik } from "formik";
-
+import contactsvg from "../../public/svgs/contact.svg";
+import Image from "next/image";
 function Contact() {
   const formik = useFormik({
     initialValues: {
@@ -16,9 +17,17 @@ function Contact() {
     },
   });
   return (
-    <div className="w-11/12 lg:w-1/2 min-h-screen flex justify-center items-center mx-auto shadow-lg rounded-lg mt-5 p-2">
-      <form onSubmit={formik.handleSubmit} className="w-full flex flex-col gap-y-10">
-        <h2 className="font-bold text-3xl leading-7 mb-3 mt-2">İletişim Formu</h2>
+    <div className="w-11/12 lg:w-full min-h-screen flex flex-col justify-center items-center lg:flex-row-reverse mx-auto mt-5 p-2">
+      <div>
+        <Image src={contactsvg} width={1920} height={1080} alt="contact image" />
+      </div>
+      <form
+        onSubmit={formik.handleSubmit}
+        className="w-full flex flex-col gap-y-10 shadow-lg rounded-lg"
+      >
+        <h2 className="font-bold text-3xl leading-7 mb-3 mt-2 text-center">
+          İletişim Formu
+        </h2>
         <div className="flex flex-col gap-y-3">
           <label
             htmlFor="nameSurname"
